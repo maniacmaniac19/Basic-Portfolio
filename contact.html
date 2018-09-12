@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 <body>
@@ -15,7 +17,7 @@
                     <ul id ="menu">
                         <li><a href = "./index.html">About Me</a></li>
                         <li><a href = "./portfolio.html">Portfolio</a></li>
-                        <li><a href = "./contact.html">Contact Me</a></li>
+                        <li class="current"><a href = "./contact.html">Contact Me</a></li>
                     </ul>
                 </div>
             </header>
@@ -25,9 +27,10 @@
         Email:<br>
         <input type="text" name="email"><br>
         Message:<br>
-        <input type="text" name="Message"><br>
+        <textarea name="message" style="width:400px; height:200px">     
+        </textarea><br>
         <br>
-        <button type="button">Submit</button>
+        <button class = "button" type="button">Submit</button>
     </form>
 </body>
 </html>
