@@ -1,0 +1,44 @@
+header{
+    background-color: cyan;
+    padding: 20px;
+}
+
+body{
+    background-image: url("../images/purty_wood_@2X.jpg");
+}
+
+
+h1{
+    width: 50%;
+}
+ul{
+    list-style-type: none;
+    position:fixed;
+    top:0;
+    right:10px;
+    }
+
+li {
+    float: right;
+    padding: 10px;    
+    border-right: solid 2px;
+    
+}
+
+li:last-child{
+    border-right: none;
+}
+
+img{
+    display: inline-block;
+    height:200px;
+    width: 300px;
+}
+
+.content{
+    display: block;
+    margin: 20px;
+    padding: 50px;
+    background-color: cyan;
+    border-radius: 10px 5px; 
+}
