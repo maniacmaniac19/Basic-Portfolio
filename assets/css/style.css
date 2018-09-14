@@ -2,7 +2,8 @@ header{
     background-color: #A2360E;
     padding: 20px;
     border-radius: 10px 10px; 
-    border: 2px solid saddlebrown
+    border: 2px solid saddlebrown;
+    position: relative;
 }
 
 body{
@@ -17,7 +18,7 @@ h1{
 }
 ul{
     list-style-type: none;
-    position:fixed;
+    position:absolute;
     top:31px;
     right:10px;
     }
@@ -49,11 +50,12 @@ a{
 
 .content{
     display: block;
-    margin: 100px;
-    padding: 25px 50px;
+    margin: 150px;
+    padding: 20px 50px 130px 50px;
     background-color: #A2360E;
     border-radius: 10px 10px; 
-    border: 2px solid saddlebrown
+    border: 2px solid saddlebrown;
+    height: 200px;
 }
 
 .button{
@@ -67,7 +69,8 @@ textarea{
 
 .projects{
     position: relative;
-    padding: 50 px;
+    float: left;
+    padding-right: 30px;
 }
 
 #description1{
@@ -83,11 +86,6 @@ textarea{
     width: 150px;
     height: 50px;
     text-align: center;
-}
-
-.project2{
-    position: relative;
-    padding: 50 px;
 }
 
 #description2{
@@ -143,7 +141,7 @@ textarea{
     bottom: 10px;
     width: 150px;
     height: 50px;
-    
+    text-align: center;
 }
 
 #description6{
