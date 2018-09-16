@@ -157,3 +157,6 @@ textarea{
     height: 50px;
     text-align: center;
 }
+
+a:hover {
+    color: red;
